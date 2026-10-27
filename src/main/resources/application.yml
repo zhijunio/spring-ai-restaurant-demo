@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-ai-restaurant-showcase
+    name: spring-ai-restaurant-demo
   main:
     allow-bean-definition-overriding: true
 

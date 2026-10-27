@@ -5,18 +5,18 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.6</version>
+        <version>4.1.2</version>
         <relativePath/>
     </parent>
     <groupId>io.zhijun.spring.ai</groupId>
-    <artifactId>spring-ai-restaurant-showcase</artifactId>
+    <artifactId>spring-ai-restaurant-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-ai-restaurant-showcase</name>
-    <description>Spring AI Chat Model Showcase with multiple AI providers</description>
+    <name>spring-ai-restaurant-demo</name>
+    <description>Spring AI restaurant recommendation app with multiple AI providers</description>
 
     <properties>
         <java.version>21</java.version>
-        <spring-ai.version>1.1.8</spring-ai.version>
+        <spring-ai.version>2.0.2</spring-ai.version>
     </properties>
 
     <dependencyManagement>
@@ -34,7 +34,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-webmvc</artifactId>
         </dependency>
 
         <dependency>
@@ -44,7 +44,7 @@
 
         <dependency>
             <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-advisors-vector-store</artifactId>
+            <artifactId>spring-ai-vector-store-advisor</artifactId>
         </dependency>
 
         <dependency>
